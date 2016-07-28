@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Survey</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 	 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<section class="container survey">
+			<div class="row">
+				<div class="col-xs-12">
+					<form id="form">
+						<div class="form-group first-name">
+						  <label for="usrFirstName">First Name:</label>
+						  <input type="text" class="form-control" id="usrFirstName">
+						</div> <!--first-name-->
+						<div class="form-group last-name">
+						  <label for="usrLastName">Last Name:</label>
+						  <input type="text" class="form-control" id="usrLastName">
+						</div> <!-- formgroup / last-name-->
+						<div class="gender">
+								<label>Gender</label>
+								<div class="radio">
+								  <label><input type="radio" name="radio" value="male">male</label>
+								</div>
+								<div class="radio">
+								  <label><input type="radio" name="radio" value="female">female</label>
+								</div>
+						</div> <!--gender-->
+						<div class="age">
+							<div class="form-group">
+							  <label for="sel1">Age:</label>
+							  <select class="form-control" id="sel1">
+							    <option value="12 to 18">from 12 to 18</option>
+							    <option value="19 to 25">from 19 to 25</option>
+							    <option value="26 to 35">from 26 to 35</option>
+							    <option value="36 to older">from 36 to older</option>
+							  </select>
+							</div>
+						</div><!-- age -->
+						<div class="sport">
+							<label>Favorite Sport</label>
+							<div class="checkbox">
+							  <label><input type="checkbox" name="checkbox" value="Basket Ball">Basket Ball</label>
+							</div>
+							<div class="checkbox">
+							  <label><input type="checkbox" name="checkbox" value="Foot Ball">Foot Ball</label>
+							</div>
+							<div class="checkbox">
+							  <label><input type="checkbox" name="checkbox" value="Tennis">Tennis</label>
+							</div>
+						</div><!--sport-->
+					</form>
+					<button type="button" class="btn btn-default" id="submitButton">submit</button>
+				</div> <!-- col-12 -->
+			</div> <!-- row -->
+		</section>
+
+
+
+
+
+
+		<!-- ******Jquery GOOGLE CDN***** -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
